@@ -33,10 +33,8 @@
             this.tmrSplashScreen = new System.Windows.Forms.Timer(this.components);
             this.lblVersion = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.picIcon = new System.Windows.Forms.PictureBox();
             this.pgbSplash = new System.Windows.Forms.ProgressBar();
             this.tmrProgress = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).BeginInit();
             this.SuspendLayout();
             // 
             // lblName
@@ -73,15 +71,6 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Intellectual Property of Robert Hawkes. © 2017  ";
             // 
-            // picIcon
-            // 
-            this.picIcon.Image = global::Annual_Leave_Calculator.Properties.Resources.AILogo;
-            this.picIcon.Location = new System.Drawing.Point(104, 60);
-            this.picIcon.Name = "picIcon";
-            this.picIcon.Size = new System.Drawing.Size(273, 106);
-            this.picIcon.TabIndex = 0;
-            this.picIcon.TabStop = false;
-            // 
             // pgbSplash
             // 
             this.pgbSplash.Location = new System.Drawing.Point(49, 197);
@@ -106,20 +95,16 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.lblName);
-            this.Controls.Add(this.picIcon);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmSplashScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox picIcon;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Timer tmrSplashScreen;
         private System.Windows.Forms.Label lblVersion;
